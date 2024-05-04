@@ -15,7 +15,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     <html lang="en">
       <body>
         <Navigation />
-        {children}
+        <div style={{ paddingTop: "100px" }}>{children}</div>
       </body>
     </html>
   );
